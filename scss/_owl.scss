@@ -1,0 +1,53 @@
+.slider
+{
+    padding: 40px;
+    .title 
+    {
+        position: relative;
+        h2 
+        {
+            color: $b;
+            text-align: center;
+            font-weight: 700;
+            font-size: 35px;
+            padding-bottom: 15px;
+        }
+        .line 
+        {
+            border-bottom: 2px solid $o;
+            width: 100px;
+            position: absolute;
+            bottom: 0;
+            left: 45%;
+            
+        }
+    }
+   
+    .content 
+    {
+        padding: 35px 25px;
+        i 
+        {
+            font-size: 40px;
+            color: #d29530;;
+        }
+        h4
+        {
+            font-weight: 700;
+            padding: 10px 0;
+            font-size: 18px;
+        }
+        .para 
+        {
+            color: #000;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .name 
+        {
+            font-size: 13px;
+            color: $o;
+        }
+    }
+
+}

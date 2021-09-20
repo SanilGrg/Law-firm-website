@@ -1,0 +1,103 @@
+.services 
+{
+    text-align: center;
+    .icon 
+    {
+        i 
+        {
+            color: #fff;
+            font-size: 35px;
+            padding: 20px 0;
+        }
+    }
+    .content 
+    {
+        color: #fff;
+        h6 
+        {
+            font-size: 20px;
+            font-weight: 700;
+            padding-bottom: 20px;
+        }
+        p 
+        {
+            font-size: 15px;
+        }
+    }
+    .left 
+    {
+        padding: 40px;
+        background-color: $o;
+        position: relative;
+        opacity: 0.9;
+        overflow: hidden;
+        &:hover 
+        {
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            transition: 0.9s;
+        }
+    }
+    .left:before 
+    {
+        position: absolute;
+        bottom: -80px;
+        right: 0;
+        content: '\f2b7';
+        font-family: 'FontAwesome';
+        font-size: 150px;
+        font-weight: 500;
+        z-index: -1;
+        opacity: 0.1;
+    }
+    .middle 
+    {
+        background: #bb852b;
+        padding: 40px;
+        position: relative;
+        opacity: 0.9;
+        overflow: hidden;
+        &:hover 
+        {
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            transition: 0.9s;
+        }
+        
+    }
+    .middle:before 
+    {
+        position: absolute;
+        bottom: -80px;
+        right: 0;
+        content: '\f002';
+        font-family: 'FontAwesome';
+        font-size: 150px;
+        font-weight: 500;
+        z-index: -1;
+        opacity: 0.1;
+    }
+    .right
+     {
+         background: #9c6f24;
+         padding: 40px;
+         position: relative;
+         opacity: 0.9;
+         overflow: hidden;
+         &:hover 
+         {
+             box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+             transition: 0.9s;
+         }
+     }
+     .right:before 
+    {
+        position: absolute;
+        bottom: -80px;
+        right: 0;
+        content: '\f255';
+        font-family: 'FontAwesome';
+        font-size: 150px;
+        font-weight: 500;
+        z-index: -1;
+        opacity: 0.1;
+    }
+}

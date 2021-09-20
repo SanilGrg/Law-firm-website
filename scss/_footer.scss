@@ -1,0 +1,166 @@
+.footer-top
+{
+    background: $ab;
+    padding: 40px 0;
+    border-bottom: 1px solid #292929;
+    ul 
+    {
+        padding-left: 0;
+        padding-top: 20px;
+        li 
+        {
+            list-style: none;
+            color: #fff;
+            padding: 5px 0;
+            a 
+            {
+                text-decoration: none;
+                color: #fff;
+                font-size: 14px;
+                &:hover
+                {
+                    color: $o;
+                }
+            }
+            i 
+            {
+                color: $do;
+                padding-right: 15px;
+                font-size: 15px;
+            }
+        }
+    }
+    .logo 
+    {
+        padding: 30px 0 20px 0;
+    }
+    .area 
+    {
+        padding-top: 40px;
+        h6 
+        {
+            color: $do;
+            font-weight: 700;
+        }
+        ul 
+        {
+            li 
+            {
+                font-size: 13px;
+                i 
+                {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .letter 
+    {
+        padding-top: 40px;
+        h6 
+        {
+            color: $o;
+            font-weight: 700;
+        }
+        p 
+        {
+            padding-top: 20px;
+            color: #fff;
+            font-size: 13px;
+            word-spacing: 4px;
+        }
+        .last 
+        {
+            font-size: 11px;
+            word-spacing:1px
+        }
+        input 
+        {
+            background:  #292929;
+            width: 80%;
+            line-height: 30px;
+            border: none;
+            padding: 5px 15px;
+        }
+        button 
+        {
+            border: none;
+            background: $o;
+            i 
+            {
+                padding: 5px 20px;
+                color: #FFF;
+                font-size: 30px;
+                margin-top: -5px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+.footer-bottom 
+{
+    background: $ab;
+    padding-top: 20px;
+    .left 
+    {
+        text-align: start;
+        padding: 20px 0;
+        p 
+        {
+            font-size: 13px;
+            color: #fff;
+            word-spacing: 3px;
+        }
+    }
+    .right 
+    {
+        text-align: end;
+        .smedia 
+        {
+            padding: 10px;
+            ul 
+            {
+                li 
+                {
+                    display: inline;
+                    list-style: none;
+                    padding: 0 5px;
+                    a 
+                    {
+                        text-decoration: none;
+                        color: #fff;
+                        background: $o;
+                        padding: 6px 10px;
+                        border-radius: 3px;
+                        &:hover 
+                        {
+                            background: #fff;
+                            color: $o;
+                            transition: 1.2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+
+}
+
+.arrow 
+{
+    width: 39px;
+    height: 40px;
+    background-color: #e9a636;
+    position: fixed;
+    bottom: 33px;
+    right: 50px;
+    text-align: center;
+     i 
+     {
+         color: #fff;
+         font-size: 20px;
+         padding: 10px;
+     }
+}

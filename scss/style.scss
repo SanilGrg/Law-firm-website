@@ -1,0 +1,102 @@
+@import 'var';
+@import 'header';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import 'exp';
+@import 'owl';
+@import 'services';
+@import 'news';
+@import 'footer';
+body 
+{
+    font-family: 'Lato', sans-serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px)
+{
+    .header-top 
+    {
+        .social 
+        {
+            display: none;
+        }
+    }
+    .menu-top 
+    {
+        text-align: center;
+        ul 
+        {
+            
+            padding-right: 60px;
+        }
+    }
+    .main-menu 
+    {
+        .mid-part 
+        {
+            text-align: center;
+            .title 
+            {
+                font-size: 45px;
+            }
+            button 
+            {
+                text-align:center;
+                position: relative;
+                right: 75px;
+                bottom: 30px;
+            }
+        }
+        
+    }
+}
+@media (max-width: 1000px)
+{
+    .header-top 
+    {
+        .social 
+        {
+            display: none;
+        }
+    }
+    .main-menu 
+    {
+        button 
+        {
+            span 
+            {
+                
+                i 
+                {
+                    color: #fff;
+                    background: $o;
+                    padding: 3px 4px;
+                }
+            }
+        }
+    }
+    .exp 
+    {
+        #tabs 
+        {
+            ul 
+            {
+                padding-left: 0;
+                text-align: start;
+                margin-left: 0;
+                li 
+                {
+                    a 
+                    {
+                        padding: 10px 5px;
+                    }
+                }
+            }
+        }
+    }
+}
